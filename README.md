@@ -1,5 +1,4 @@
 # 0-100 Javascript
-##Block 1
 
 This is the repository with challenges of the Javascript course taught by PUNCHIT.
 
