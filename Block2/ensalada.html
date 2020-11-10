@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ensalada Challenge</title>
+</head>
+<body>
+    <p> [Ensalada]
+        Escribir un script en el cual se ingresen 6 números enteros. Con estos se debe
+        calcular la  suma de los 3 primeros y el producto entre el tercero, el cuarto y el 5to y
+        sumarle el sexto</p>
+    <script>
+        const numeros = [];
+        for (let i = 0; i < 6; i++) {
+            numeros.push(parseInt(prompt('Ingrese un número entero')));
+        }
+        
+        let operacion1 = numeros[0] + numeros [1] + numeros [2];
+        let operacion2 = (numeros[3] * numeros[4] * numeros[5]) + numeros[6];
+    </script>
+</body>
+</html>
