@@ -5,5 +5,5 @@ This is the repository with challenges of the Javascript course taught by PUNCHI
 ## Block 1,
 ### Unit 1: Flow charts (DDF).
 
-##Block 2, 
-###Solving Problems.
+## Block 2, 
+### Solving Problems.
