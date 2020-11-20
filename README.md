@@ -8,5 +8,5 @@ This is the repository with challenges of the Javascript course taught by PUNCHI
 ## Block 2, 
 ### Solving Problems, Functions.
 
-##Block 3, 
+## Block 3, 
 ### DOM
