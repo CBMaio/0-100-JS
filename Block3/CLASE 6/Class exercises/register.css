@@ -1,0 +1,22 @@
+.see-password {
+  font-size: 12px;
+  margin: 0;
+  color: #555;
+}
+
+.eye-btn {
+  border: 0.2px;
+  border-radius: 5px;
+}
+
+.eye-btn:focus {
+  outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.show { 
+    display: block;
+}
