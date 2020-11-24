@@ -6,14 +6,18 @@ const cifradoCesar = (str, num) => {
   const arrayAbc = abc.split("");
   const newArr = [];
   for (letter of str) {
-    const index = arrayAbc.indexOf(letter);
-    const newLetter = arrayAbc[index + num];
+    let index = arrayAbc.indexOf(letter);
+    let newIndex = index + num;
+    if (newIndex >= arrayAbc.length) {
+      newIndex = newIndex - arrayAbc.length;
+    }
+    const newLetter = arrayAbc[newIndex];
     newArr.push(newLetter);
   }
 
-  const newStr = newArr.join('')
+  const newStr = newArr.join("");
 
   return newStr;
 };
 
-console.log(cifradoCesar("hola", 1));
+console.log(cifradoCesar("xyz", 2));
