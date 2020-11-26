@@ -2,17 +2,13 @@
 // Mundo”
 
 const capitalize = (str) => {
-  const arr = str.split(" ");
-  const newArr = [];
-  let newStr;
-  for (let i = 0; i < arr.length; i++) {
-    const firstLetter = arr[i].charAt(0).toUpperCase();
-    const word = arr[i].slice(1);
-    newArr.push(firstLetter + word);
-    newStr = newArr.join(" ");
+  str = str.split(' ');
+  for(let i = 0; i < str.length; i++) {
+    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
   }
 
-  return newStr;
+  str = str.join(' ');
+  return str;
 };
 
 console.log(capitalize("hola mundo"));
